@@ -2,7 +2,7 @@
 
 This project based on the Phyre framework [](https://github.com/facebookresearch/phyre). It provides a variety of physics puzzles in a simulated 2D world.ch puzzle
 has a goal state (e.g., *make the green ball touch the blue wall*) and an initial state in which the goal is not satisfied (see the figure below). A puzzle can be solved by placing one or more new bodies in the environment such that when the physical simulation is run the goal is satisfied. An agent
-playing this game must solve previously unseen puzzles in as few attempts as possible.
+playing this game must solve previously unseen puzzles in as few attempts as possible.\
 A report of the setup and results of the project can be found here: [Phyre](report/Phyre)
 
 ![phyre](imgs/phyre_tasks.gif)
