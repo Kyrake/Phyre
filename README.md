@@ -19,10 +19,8 @@ pip install phyre
 
 To check that the installation was successful, run `python -m phyre.server` and open http://localhost:30303. That should start a local demo server.
 
-For instructions on building PHYRE from source and installing in a Docker container, see [INSTALLATION](INSTALLATION.md).
-
 ## Training an agent
-We provide a set of baseline agents that are described in the paper.
+We provide a set of baseline agents that are described in the report.
 In order to run them, you need to install additional python dependencies with `pip install -r requirements.agents.txt`.
 
 All the agents are located in `agents/` folder. The entry point is `train.py`
