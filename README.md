@@ -1,8 +1,8 @@
+# Phyre
 
-<p align="center"><img width="70%" src="imgs/phyre_logo.jpg" /></p>
-
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)](LICENSE)
-[![CircleCI](https://circleci.com/gh/facebookresearch/phyre.svg?style=svg)](https://circleci.com/gh/facebookresearch/phyre)
+# Introduction
+This project based on the dataset [ContactPose: A Dataset of Grasps with Object Contact and Hand Pose](https://github.com/facebookresearch/ContactPose). The goal is to levarege the quantity of hand and grasping poses in order to find a lower dimensional interconnection between the involved joints. This could reduce the control effort for robotics hands. To this purpose a kinematic model of a human hand is developed to simulate the grasping movement, instead of just singular poses. The sequqnces of the movement are then analyzed with PCA and ICA algorithms in order to find lower dimensional grasping configurations. The results are than applied on the RBO Hand 3.\
+A report of the setup and results of the project can be found here: [Phyre](report/Phyre)
 
 **PHYRE** is a benchmark for physical reasoning.
 
